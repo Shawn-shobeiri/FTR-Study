@@ -12,5 +12,8 @@ venv/
 .env
 .venv/
 
-# Large local datasets (use Git LFS or external storage if you need them remote)
-auction_results/
+# Parquet binaries (large; regenerate with build scripts if needed)
+*.parquet
+**/*.parquet
+
+# Optional: keep auction_results/ CSV/XML/etc. in repo; exclude parquets only
