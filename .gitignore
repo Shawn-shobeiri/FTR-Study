@@ -1,0 +1,16 @@
+# Local / IDE
+.DS_Store
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+.venv/
+
+# Large local datasets (use Git LFS or external storage if you need them remote)
+auction_results/
